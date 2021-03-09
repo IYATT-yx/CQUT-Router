@@ -4,7 +4,7 @@
 openWrt 19.07.7  
 
 # 1.下载固件准备
-#### (1) [固件下载](https://yunpan.360.cn/surl_yRF3ijWsMGC) （提取码：c9bf）
+#### (1) [固件下载](openwrt-19.07.7-ramips-mt7620-psg1218a-squashfs-sysupgrade.bin)
 
 #### (2) 上传固件: 略
 管理地址: 192.168.1.1

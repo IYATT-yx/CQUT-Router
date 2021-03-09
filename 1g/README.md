@@ -5,11 +5,10 @@
 
 # 操作:
 
-下载:
-[路由器刷breed web控制台助手](https://yunpan.360.cn/surl_yRFLi2X2z5g) （提取码：7397）
-[荒野无灯固件PSG1218-K2_3.4.3.9-099_20181019-1049](https://yunpan.360.cn/surl_yRFLTeQnYfs) （提取码：0ea8）
+下载:  
+[路由器刷breed web控制台助手](breed.zip)  
+[荒野无灯固件PSG1218-K2_3.4.3.9-099_20181019-1049](PSG1218-K2_3.4.3.9-099_20181019-1049.trx)  
 
-如果解压有密码,密码是: `a-rounder.com`
 
 
 #### 1.刷breed
