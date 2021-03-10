@@ -50,20 +50,3 @@ opkg install rp-pppoe-server
 ```bash
 sh /root/nk4conf.sh
 ```
-# 3.修改网关 - 改路由器管理页面地址
-统一改为 `192.168.6.1`
-
-原因: 我测试环境下,多个路由器串着同网,避免冲突
-
-ssh连接到路由器后
-```bash
-ssh root@192.168.1.1
-```
-
-修改配置文件
-```bash
-vim /etc/config/network
-```
-
-把 `lan` 下 `option ipaddr` 后面单引号中的IP改为 192.168.6.1
-![在这里插入图片描述](4.png)
