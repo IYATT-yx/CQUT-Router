@@ -33,7 +33,8 @@ opkg install luci-i18n-base-zh-cn
 ```
 
 # 2.配置闪讯
-#### (1) [下载脚本](https://yunpan.360.cn/surl_yRFuqJCbmAk) （提取码：a5ad）
+#### (1) 下载脚本
+[nk](nk)
 #### (2) 可以使用Windows的scp命令把三个文件传到路由器的 /root 下
 ```bash
 scp [要上传的文件路径] root@192.168.1.1:/root/
