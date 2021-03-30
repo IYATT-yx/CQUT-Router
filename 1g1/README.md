@@ -50,3 +50,12 @@ opkg install rp-pppoe-server
 ```bash
 sh /root/nk4conf.sh
 ```
+
+# 3.功能扩展
+#### (1) 客户端限速
+```bash
+opkg install luci-app-nft-qos
+```
+```bash
+opkg install luci-i18n-nft-qos-zh-cn
+```
