@@ -1,10 +1,12 @@
 # 路由器:
 1g1  
-斐讯 K2  
+K2 / newifi3
 openWrt 19.07.7  
 
 # 1.下载固件准备
-#### (1) [固件下载](openwrt-19.07.7-ramips-mt7620-psg1218a-squashfs-sysupgrade.bin)
+#### (1) 固件下载  
+ [K2](openwrt-19.07.7-ramips-mt7620-psg1218a-squashfs-sysupgrade.bin)  
+[newifi3](openwrt-newifi-d2-sysupgrade-v19.07.7.bin)
 
 #### (2) 上传固件: 略
 管理地址: 192.168.1.1
