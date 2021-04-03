@@ -1,6 +1,6 @@
 # 路由器:
 1g1  
-K2 / newifi3
+K2 / newifi3  
 openWrt 19.07.7  
 
 # 1.下载固件准备
