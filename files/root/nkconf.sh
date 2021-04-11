@@ -39,9 +39,9 @@ cp /lib/netifd/proto/ppp.sh /lib/netifd/proto/ppp.sh_bak
 sed -i '/proto_run_command/i username=`echo -e "$username"`' /lib/netifd/proto/ppp.sh
 
 #set init script
-cp /root/nk4 /etc/init.d/nk4
-chmod +x /etc/init.d/nk4
-/etc/init.d/nk4 enable
+cp /root/nk /etc/init.d/nk
+chmod +x /etc/init.d/nk
+/etc/init.d/nk enable
 sleep 5
-(/etc/init.d/nk4 start &)
+(/etc/init.d/nk start &)
 

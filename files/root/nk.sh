@@ -11,7 +11,7 @@ pppoe-server -k -I br-lan
 cat /dev/null > /tmp/pppoe.log
 
 sleep 15 # wait 15s for reboot, or it will throw error for 'you have accessed in'
-logger -t nk4 "try to login at power on"
+logger -t nk "try to login at power on"
 ifdown netkeeper
 ifup netkeeper
 
@@ -31,7 +31,7 @@ do
 												        uci commit
 													        ifup netkeeper
 														        username_old="$username"
-															        logger -t nk4 "new username $username"
+															        logger -t nk "new username $username"
 																    fi
 																        
 																        sleep 10
