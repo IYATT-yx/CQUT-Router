@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.1)
 
 project(nk C)
-set(CMAKE_C_COMPILER "/home/yx/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/bin/mipsel-openwrt-linux-musl-gcc")
+set(CMAKE_C_COMPILER "$ENV{HOME}/openwrt/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/bin/mipsel-openwrt-linux-musl-gcc")
 include_directories(include)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 aux_source_directory(src src)
