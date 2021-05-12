@@ -37,8 +37,10 @@ ____________________________________________
 重新克隆 OpenWrt 源码，采用版本 21.127  
 内核未再添加 TCP-BBR  
 
-2.17g1   
+2.20g1   
 脚本可直接运行  `./install.sh`  
 时区预置为 Asia/Shanghai  
 WiFi 预置配置文件，区域设置为 CN  
+添加 [aliddns](https://github.com/honwen/luci-app-aliddns)  
+添加 UPNP  
 ____________________________________________
