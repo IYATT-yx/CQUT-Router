@@ -21,10 +21,10 @@ uci commit network
 uci set network.netkeeper=interface
 uci set network.netkeeper.ifname=$(uci show network.wan.ifname | awk -F "'" '{print $2}')
 uci set network.netkeeper.proto=pppoe
-uci set network.netkeeper.username=username
-uci set network.netkeeper.password=password
+uci set network.netkeeper.username=""
+uci set network.netkeeper.password=""
 uci set network.netkeeper.metric='0'
-uci set network.netkeeper.auto='0'
+uci set network.netkeeper.auto='1'
 # 将 lan 的 MAC 用于拨号
 # uci set network.wan_eth0_2_dev.macaddr=$(ifconfig | grep 'br-lan' | awk '{print $5}')
 # 将 wlan0 的 MAC 用于拨号

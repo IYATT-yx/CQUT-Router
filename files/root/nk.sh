@@ -17,13 +17,13 @@ ifup netkeeper
 
 while :
 do
-	#read the last username in pppoe.log
+	# 从 PPPoE server 日志中读取帐号
 	if [ "$(grep 'user=' /tmp/pppoe.log | grep 'rcvd' | tail -n 1 | cut -d \" -f 5)" == "]" ]
 	then
 		username=$(grep 'user=' /tmp/pppoe.log | grep 'rcvd' | tail -n 1 | cut -d \" -f 2)
 	fi
 
-	if [ "$username" != "$username_old" ]
+	if [ "$username" != "$username_old" ] && [ -z "$(ifconfig | grep "netkeeper")" ]
 	then
 		ifdown netkeeper
 			uci set network.netkeeper.username="$username"
@@ -34,9 +34,9 @@ do
 			logger -t nk "new username $username"
 	fi
 																        
-	sleep 10
+	sleep 15
 
-	#close pppoe if log fail
+	# 拨号失败，断开
 	if [ -z "$(ifconfig | grep "netkeeper")" ]
 	then
 		ifdown netkeeper
