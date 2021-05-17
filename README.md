@@ -47,16 +47,14 @@ ____________________________________________
 2.20g1   
 
 WiFi 预置配置文件，区域设置为 CN  
-内核未再添加 TCP-BBR  
 未再添加 nft-qos  
 脚本可直接运行  `./install.sh`  
 时区预置为 Asia/Shanghai 
 添加 UPnP  
-添加 Turbo ACC 网络加速（flow、bbr、fullcone nat、dns） 
+添加 Turbo ACC 网络加速（flow、bbr、fullcone nat、dns）  
 在路由器已经拨号成功的情况下，如果失误使用创翼登录可能会造成路由器断开，重新尝试拨号。已经修复该 bug。 
 
-2.20g2
-内核未再添加 TCP-BBR  
+2.20g2  
 未再添加 nft-qos  
 脚本可直接运行  `./install.sh`  
 时区预置为 Asia/Shanghai  
