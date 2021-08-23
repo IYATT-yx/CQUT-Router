@@ -19,7 +19,7 @@ WiFi名和密码都是： `iyatt.com`
 
 # 更新日志
 ## 2021-4-9
-使用 [OpenWrt 源码](https://github.com/openwrt/openwrt) 版本：21.098
+使用 [OpenWrt 源码](https://github.com/openwrt/openwrt) 版本： 21.098
   
 ## 2021-4-10
 2.14g1 2.15g2 去除adblock
@@ -34,15 +34,14 @@ WiFi名和密码都是： `iyatt.com`
 2.16g1 2.18g2 修改拨号脚本部署命令
 
 ## 2021-5-8  
-使用 [OpenWrt 源码] 版本： 21.127
+使用 [OpenWrt 源码](https://github.com/openwrt/openwrt) 版本： 21.127  
 部分APP来源：   
 
 ## 2021-5-15
 2.20g1 和 2.20g2 都有的主要更改在优化设置和拨号脚本以及添加 Turbo ACC 网络加速  
 部分新增应用来源：[openwrt-packages](https://github.com/caonimagfw/openwrt-packages)  
 
-另外  
-2.20g2  
+另外 2.20g2  
 增加 [aliddns](https://github.com/honwen/luci-app-aliddns)，学校宽带有公网 IP，如果自己有域名的话，可以使用阿里云动态解析。注意宽带的80,443等端口是无法使用的。  
 
 USB 储存设备支持（文件系统：ext4、vfat、exFat、ntfs），在 `系统->挂载点` 中勾选 `自动挂载未配置的磁盘分区` ，插入 USB 储存设备会自动挂载到 /mnt 下。   
