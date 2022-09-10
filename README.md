@@ -1,7 +1,8 @@
 # 重庆理工大学宽带使用路由器方案
-锐捷宽带的路由器解决方案更新日志请阅读(含固件百度网盘下载地址)：[https://blog.iyatt.com/?p=6815](https://blog.iyatt.com/?p=6815)  
-固件 GitHub 下载地址：[锐捷-固件](锐捷-固件)  
-
+锐捷宽带路由器解决方案更新日志：[https://blog.iyatt.com/?p=6815](https://blog.iyatt.com/?p=6815)  
+固件下载：  
+* [百度网盘](https://pan.baidu.com/s/1IJY2M9_DxH8vuo2AxWSaSA?pwd=w6tr)
+* [GitHub](锐捷-固件)  
 
 
 ———————————————————————————————————————————————————  
